@@ -24,4 +24,8 @@ func main() {
 	} else {
 		fmt.Println(valueTime)
 	}
+
+	fmt.Println(valueTime.Year())
+	fmt.Println(valueTime.Date())
+	fmt.Println(valueTime.Day())
 }
